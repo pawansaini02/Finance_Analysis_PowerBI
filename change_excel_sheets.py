@@ -7,7 +7,7 @@ import openpyxl
 from os import walk
 from os.path import isfile, join
 
-PATH = r"C:\Users\AJ\Desktop\Finance_Analysis_PowerBI\Finance_Data"
+PATH = r"C:\Users\Finance_Analysis_PowerBI\Finance_Data"
 NEW_SHEET_NAME = "Sheet1"
 
 for path, _, files in walk(PATH):
